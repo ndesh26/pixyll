@@ -6,22 +6,29 @@ summary:    Reveal.js is a javascript library which allows us to create beautifu
 categories: javascript 
 ---
 
-Hello.
-
-Pixyll is a simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff. It's mobile _first_, fluidly responsive, and delightfully lightweight.
-
-It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.
-
-<blockquote>
-  <p>
-    Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
-  </p>
-  <footer><cite title="Antoine de Saint-Exupéry">Antoine de Saint-Exupéry</cite></footer>
-</blockquote>
-
-## Where is it?
-
-Checkout the [Github repository](https://github.com/hakimel/reveal.js) to download it, request a feature, or report a bug.
-
-It's free, and open source ([MIT](http://opensource.org/licenses/MIT)).
+Reveal.js is a javascript framework to create beautiful presentations. 
+![Cover](/2016/02/10/Reveal-js/reveal.jpg)
+It allows us us to create presentations in form of html pages which include a broad range of features. I like the the framework mostly because it allows to create presentation related to web development and also show the excecution of code then and there. Though some of you may feel that it is tedious to create presentation using 
+reveal.js for such people there is a [online editor](http://slides.com/) which allows you to use reveal.js without the need to code anything.
+you can see the demo slide [here](http://lab.hakim.se/reveal-js/#/).
+```html
+<html>
+    <head>
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/white.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>Slide 1</section>
+                <section>Slide 2</section>
+            </div>
+        </div>
+        <script src="js/reveal.js"></script>
+        <script>
+            Reveal.initialize();
+        </script>
+    </body>
+</html>
+```
 
